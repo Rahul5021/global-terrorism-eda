@@ -6,11 +6,10 @@ geographic distribution across over 111,000 recorded incidents worldwide.
 
 ## Dataset
 
-[Global Terrorism Database](https://www.start.umd.edu/gtd/) — maintained by the National
-Consortium for the Study of Terrorism and Responses to Terrorism (START), University of
-Maryland. This analysis uses a scoped subset: incidents from 2000–2017, with a reduced
-set of columns relevant to the questions below (original dataset spans 1970–2017 with
-136 columns).
+## Dataset
+
+- **Original dataset:** [Global Terrorism Database](https://www.start.umd.edu/gtd/) — maintained by the National Consortium for the Study of Terrorism and Responses to Terrorism (START), University of Maryland.
+- **Scoped subset (this project):** [Global Terrorism Database — 2000–2017 Subset (Cleaned & Scoped)](https://www.kaggle.com/datasets/rahulagrawal1025/global-terrorism-database-20002017-subset) — filtered to 2000–2017 and reduced from 136 to 17 relevant columns. No values altered.
 
 ## Tools
 
