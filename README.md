@@ -13,7 +13,7 @@ geographic distribution across over 111,000 recorded incidents worldwide.
 
 ## Tools
 
-Python, pandas, matplotlib, seaborn, folium, Jupyter Notebook
+Python, pandas, matplotlib, seaborn, folium, Jupyter Notebook, Power BI
 
 ## Approach
 
@@ -75,6 +75,32 @@ be considered when interpreting geographic or temporal patterns.
   deliberately based on data shape (trend vs. category comparison vs. two-dimensional
   category comparison)
 - Interactive geospatial mapping with marker clustering (folium)
+
+## Power BI Dashboard
+
+The same core analysis (incident trends by region, incident-casualty correlation,
+attack method patterns, and geographic distribution) was also built as an interactive
+Power BI dashboard, complementing the Python/pandas analysis with a live, filterable
+BI tool.
+
+**Dashboard preview (unfiltered):**
+
+![Full dashboard](images/dashboard_full.png)
+
+**Filtered example — South Asia, 2000–2010:**
+
+![Filtered to South Asia](images/dashboard_south_asia.png)
+
+The dashboard includes four connected visuals — a geographic map (casualties by
+country), a regional trend line chart, an incidents-vs-casualties scatter plot, and
+an attack-type bar chart — all responsive to region and year-range slicers. Selecting
+a region or adjusting the year range instantly filters all four visuals together, as
+shown in the South Asia example above.
+
+**Note on access:** live public sharing of this dashboard requires a Power BI Pro
+license, which wasn't set up for this project. The `.pbix` file is included in this
+repository — anyone with the free Power BI Desktop app can open it directly and
+interact with it, including the slicers shown above.
 
 ## Author
 
