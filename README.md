@@ -89,7 +89,7 @@ BI tool.
 
 **Filtered example — South Asia, 2000–2010:**
 
-![Filtered to South Asia](images/dashboard south asia.png)
+![Filtered to South Asia](images/dashboard%20south%20asia.png)
 
 The dashboard includes four connected visuals — a geographic map (casualties by
 country), a regional trend line chart, an incidents-vs-casualties scatter plot, and
